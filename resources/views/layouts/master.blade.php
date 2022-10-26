@@ -7,12 +7,12 @@
     <meta name=apple-mobile-web-app-status-bar-style content=black>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <script src="{{asset('assets-4.0/js/plugins/alpine.min.js')}}" defer></script>
     <link rel="icon" type="image/x-icon" href="{{asset('/images/favicon.ico')}}">
+    <link href="{{ asset('css/app.css') }}">
     <title>Blog</title>
 </head>
+<body class="wrapper d-flex flex-column min-h-screen">
 @include('layouts.header')
-<body class="d-flex flex-column min-h-screen">
 <div class="flex-1">
     <!-- content -->
     @yield('content')
@@ -20,8 +20,8 @@
 
 @yield('first_scripts')
 <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-</body>
 @include('layouts.footer')
+</body>
 @yield('after_scripts')
 
 </html>

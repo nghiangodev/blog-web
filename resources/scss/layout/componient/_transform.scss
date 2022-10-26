@@ -3,15 +3,3 @@
     transform: rotate(#{$i}deg);
   }
 }
-
-.trans {
-  @include trans;
-}
-
-.trans-super-slow {
-  @include trans-super-slow;
-}
-
-.trans-slow {
-  @include trans-slow;
-}

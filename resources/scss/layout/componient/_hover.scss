@@ -34,20 +34,3 @@
   }
 }
 
-.hover\:border-blue {
-  &:hover {
-    border-color: $primary !important;
-  }
-}
-
-.hover\:text-light {
-  &:hover {
-    color: $light !important;
-  }
-}
-
-.hover\:bg-chat-blue-200 {
-    &:hover {
-        background-color: $chat-blue-200;
-    }
-}
