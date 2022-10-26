@@ -1,0 +1,9 @@
+.z-n1 {
+  z-index: -1;
+}
+
+@for $i from 1 through 9 {
+  .z-#{$i}0 {
+    z-index: #{$i}0;
+  }
+}

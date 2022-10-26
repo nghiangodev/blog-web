@@ -1,0 +1,53 @@
+.hover\:opacity-85 {
+  &:hover {
+    opacity: 0.85 !important;
+  }
+}
+
+.hover\:text-gray-700 {
+  &:hover {
+    color: $gray-700 !important;
+  }
+}
+
+.hover\:text-gray-800 {
+  &:hover {
+    color: $gray-800 !important;
+  }
+}
+
+.hover\:scale-1\.2 {
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.hover\:shadow-blue {
+  &:hover {
+    box-shadow: 0px 10px 20px rgba(77, 162, 231, 0.25) !important;
+  }
+}
+
+.hover\:border {
+  &:hover {
+    border: 1px solid !important;
+  }
+}
+
+.hover\:border-blue {
+  &:hover {
+    border-color: $primary !important;
+  }
+}
+
+.hover\:text-light {
+  &:hover {
+    color: $light !important;
+  }
+}
+
+.hover\:bg-chat-blue-200 {
+    &:hover {
+        background-color: $chat-blue-200;
+    }
+}

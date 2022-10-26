@@ -1,0 +1,25 @@
+.border-trans {
+    border: 1px solid transparent;
+}
+
+@for $i from 1 through 50 {
+    .rounded-top-#{$i} {
+        border-top-left-radius: #{$i}px;
+        border-top-right-radius: #{$i}px;
+    }
+
+    .rounded-bottom-#{$i} {
+        border-bottom-left-radius: #{$i}px;
+        border-bottom-right-radius: #{$i}px;
+    }
+
+    .rounded-top-#{$i} {
+        border-top-right-radius: #{$i}px !important;
+        border-top-left-radius: #{$i}px !important;
+    }
+
+    .rounded-#{$i} {
+        border-radius: #{$i}px;
+    }
+}
+

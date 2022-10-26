@@ -1,0 +1,17 @@
+@for $i from 0 through 360 {
+  .rotate-#{$i} {
+    transform: rotate(#{$i}deg);
+  }
+}
+
+.trans {
+  @include trans;
+}
+
+.trans-super-slow {
+  @include trans-super-slow;
+}
+
+.trans-slow {
+  @include trans-slow;
+}
