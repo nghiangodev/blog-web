@@ -1,4 +1,3 @@
-require('./bootstrap');
 require('jquery');
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
