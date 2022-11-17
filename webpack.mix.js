@@ -4,7 +4,6 @@ mix
 .js("resources/js/app.js", "public/js")
 
 .sass("resources/scss/app.scss", "public/css", [])
-.sass("resources/scss/layout/theme/style.scss", "public/css/layouts/theme/")
 
 .options({
     processCssUrls: false,
